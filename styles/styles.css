@@ -5,32 +5,36 @@
 
 /*+++++++++INDEX++++++++++*/
 
-.encabezadoIndex{
-    -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.57); 
-    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.57);
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: space-between;
+.navIndex{
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
-    flex-wrap: wrap;
-    align-items: center;
+    padding: 0;
 }
 
-.encabezadoIndex nav ul li{
-    list-style: none;
+.nav-link{
+    color: black;
     text-align: center;
 }
 
-.encabezadoIndex nav ul li a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    margin: 1em;
-    font-size: 1em;
+.navbar-collapse{
+    justify-content: end;
 }
 
-.encabezadoIndex nav ul{
-    display: flex;
+.navbar{
+    --bs-navbar-brand-padding-y:0;
+}
+
+.carouselIndex{
+    margin-top: 1em;
+}
+
+.seccionesIndex{
+    font-size: 1.3em;
+    font-family:'Poppins', sans-serif;
+    color: black;
+    padding: 0%;
+    padding-left: 1em;
+
 }
 
 .imgLogo{
@@ -43,42 +47,12 @@
     background-color: #81A456;
 }
 
-.mainIndex{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    /*No dar importancia porque aca iria un carrusel!!*/
-}
-
-.mainIndex img{
-    margin-top: 4%;
-    width: 35em;
-    height: 35em;
-}
-
-.seccionIndex{
-    display: flex;
-    flex-direction: row;
-    margin-top: 3em;
-    margin-bottom: 3em;
-    align-items: center;
-    justify-content: space-around;
-}
-
 .seccionIndex p{
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-weight: 200;
     text-align: center;
     align-items: center;
-    font-size: 2em;
-    width: 50%;
-}
-
-.seccionIndex img{
-    border-radius: 2em;
-    width: 30%;
-    height: 30%;
 }
 
 .footerIndex{
@@ -105,10 +79,11 @@
 .footerNav nav ul li{
     text-align: start;
     margin-left: 15%;
+    list-style: none;
+    
 }
 
 .footerNav nav ul li a{
-    list-style: none;
     text-decoration: none;
     color: white;
     font-family:'Poppins', sans-serif;
@@ -157,40 +132,17 @@
     color: white;
     font-family:'Poppins', sans-serif;
     padding-left: 0.5em;
+    margin-bottom: 0;
 }
 
 
 
-/*++++++++NOSOTROS++++++++*/
-.seccionNosotros{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 4em;
-    align-items: center;
-}
+/* ++++++++NOSOTROS++++++++*/
+
 
 .articuloNosotros{
     font-family:'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-
-.articuloNosotros p{
-    text-align: center;
-    margin-left: 3em;
-    margin-top: 1em;
-}
-
-
-
-.imgNosotros{
-    width: 18em;
-    height: 18em;
-    border-radius: 2em;
-}
-
 
 /*++++++++SERVICIOS++++++++*/
 
