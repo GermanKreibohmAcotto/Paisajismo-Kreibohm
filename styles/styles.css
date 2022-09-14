@@ -146,63 +146,14 @@
 
 /*++++++++SERVICIOS++++++++*/
 
-.imgServicios{
-    width:300px;
-    height: 300px;
-    border-radius:160px;
-}
-
 .mainServicios{
     font-family:'Poppins', sans-serif;
-}
-
-.mainServicios h2{
-    font-size: 3em;
-    text-align: center;
-    margin-top: 1em;
-}
-
-.seccionServicios{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 3em;
-}
-
-.seccionServicios div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.seccionServicios div p{
-    text-align: center;
-    margin: 1em;
-    font-size: 2em;
 }
 
 /*+++++++OBRAS++++++++*/
 
 .seccionObras{
     font-family:'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1em 0 1em 0;
-}
-
-.seccionObras div{
-    width: 85%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "img1 img2 img3"
-    "img4 img5 img6" ;
-    justify-items: center;
-    grid-row-gap: 1em;
-    grid-column-gap: 1em;
-    margin-bottom: 1em;
 }
 
 .seccionObras h2{
@@ -211,55 +162,18 @@
     font-size: 2em;
 }
 
-.seccionObras div img{
-    width: 100%;
-    height: 100%;
-    border-radius: 3%;
+.galeriaFotos{
+    --bs-gutter-x:1rem;
+    --bs-gutter-y:1rem;
 }
-
-.img1{
-    grid-area: img1;
-}
-
-.img2{
-    grid-area: img2;
-}
-
-.img3{
-    grid-area: img3;
-}
-
-.img4{
-    grid-area: img4;
-}
-
-.img5{
-    grid-area: img5;
-}
-
-.img6{
-    grid-area: img6;
-}
-
 /*++++++++CONTACTO++++++*/
 
 .cuerpoContacto h2{
     font-family:'Poppins', sans-serif;
-    text-align: center;
-    margin-bottom: 0.5em;
-    font-size: 2em;
-}
-
-.cuerpoContacto section{
-    margin: 1em 0 1em 0 ;
 }
 
 .asideContacto{
     font-family:'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
 }
 
 .asideContacto ul li{
