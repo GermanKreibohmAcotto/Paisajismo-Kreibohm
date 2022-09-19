@@ -34,7 +34,27 @@
     color: black;
     padding: 0%;
     padding-left: 1em;
+}
 
+.seccionesIndex a{
+    padding: 1.3em 3em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #000;
+  background-color:#81A456;
+  border: none;
+  border-radius: 5%;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.seccionesIndex a:hover{
+    background-color: #588125;
+  box-shadow: 0px 15px 20px #def3c4;
+  color: #fff;
+  transform: translateY(-7px);
 }
 
 .imgLogo{
@@ -202,128 +222,57 @@
 }
 
 
-@media screen and (max-width: 480px){
-    
-    /* ++++++Index+++++++ */
-    .cuerpoIndex{
-        width: 100%;
-    }
+@media screen and (max-width: 576px){
+   /* ++++++++++index++++++++++ */
+   .carouselIndex{
+    display: none;
+   }
+   .seccionIndex{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+   }
+   .imgIndex{
+    width: 80%!important;
+    margin-bottom: 0em!important;
+   }
+   .carouselMovil{
+    margin-top: 1em;
+    display: block!important;
+   }
+   .seccionIndex p{
+    padding: 1em 0em 1em 0em !important;
+    width: 80%;
+   }
+   .footerIndex{
+    flex-direction: column;
+   }
+   .footerNav{
+    margin-bottom: 0%;
+   }
+   .footerNav nav ul li{
+    margin-left: 0%;
+    text-align: center;
+   }
+   .footerNav nav ul{
+    padding-left: 0%;
+   }
+   .footerRedes{
+    margin-top: -10%;
+    flex-direction: column;
+   }
+   .footerRedes div{
+    margin-top: -5%;
+    width: 50%;
+   }
 
-    .encabezadoIndex{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+   /* ++++++++++Nosotros+++++++++++++ */
+   .seccionNosotros{
+    margin-top: 0em!important;
+   }
+   .imgNosotros{
+    width: 100%!important;
+    margin: 1em !important;
+   }
 
-    }
-
-    .encabezadoIndex nav ul{
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .encabezadoIndex nav ul li{
-        font-size: 0.8em;
-    }
-
-    .encabezadoIndex nav{
-        margin-bottom: 1em;
-    }
-
-    .imgLogo{
-        margin-left: 0;
-    }
-
-    .mainIndex{
-        flex-direction: column;
-        align-items: center;  
-    }
-
-    .mainIndex img{
-        margin-top:1em;
-        width: 80%;
-        height: 80%;
-    }
-
-    .seccionIndex{
-        justify-content: center;
-    }
-
-    .seccionIndex p{
-        font-size: 0.9em;
-        width: 50%;
-    }
-
-    .seccionIndex img{
-        width: 40%;
-    }
-    
-    .footerIndex{
-        flex-direction: column;
-    }
-
-    .footerNav{
-        display: none;
-    }
-
-    .footerRedes{
-        margin: 0;
-        flex-direction: column;
-    }
-
-    /* +++++++Nosotros++++++++ */
-    
-    .seccionNosotros{
-        flex-direction: column;
-        margin: 2em;
-    }
-
-    .imgNosotros{
-        width: 100%;
-        height: 100%;
-    }
-
-    .articuloNosotros p{
-        margin: 1em 0 0 0;
-    }
-
-    .articuloNosotros h2{
-        font-size: 2.5em;
-        margin-top: 3%;
-    }
-
-    /* ++++++++Servicios+++++++ */
-    
-    .seccionServicios{
-        flex-direction: column;
-
-    }
-
-    /* ++++++++++Nuestras Obras+++++++++ */
-
-    .seccionObras div{
-        display: flex;
-        flex-direction: column;
-    }
-
-    /* ++++++++contacto++++++ */
-    
-    .cuerpoContacto{
-        flex-direction: column-reverse;
-        margin-top: 1.5em;
-    }
-
-    .cuerpoContacto section{
-        margin: 0;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .cuerpoContacto section iframe{
-        width: 90%;
-        margin-bottom: 1.5em;
-    }
-    
 }
