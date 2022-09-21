@@ -1,0 +1,185 @@
+@import "./base/variables";
+@import "./componentes/global";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carouselIndex {
+    margin-top: 1em;
+}
+
+.seccionesIndex {
+    font-size: 1.3em;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    padding: 0%;
+    padding-left: 1em;
+
+    a {
+        padding: 1.3em 3em;
+        font-size: 0.8em;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        color: #000;
+        background-color: $color-principal;
+        border: none;
+        border-radius: 5%;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+
+        &:hover {
+            background-color: #588125;
+            box-shadow: 0px 15px 20px #def3c4;
+            color: #fff;
+            transform: translateY(-7px);
+        }
+    }
+}
+
+.imgLogo {
+    width: 7em;
+    height: 7em;
+    margin-left: 1em;
+}
+
+.cuerpoIndex {
+    background-color: #81A456;
+}
+
+.seccionIndex {
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: 200;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.articuloNosotros {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainServicios {
+    font-family: 'Poppins', sans-serif;
+}
+
+.seccionObras {
+    font-family: 'Poppins', sans-serif;
+
+    h2 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: 2em;
+    }
+}
+
+.galeriaFotos {
+    --bs-gutter-x: 1rem;
+    --bs-gutter-y: 1rem;
+}
+
+.cuerpoContacto {
+    h2 {
+        font-family: 'Poppins', sans-serif;
+    }
+
+}
+
+.asideContacto {
+    font-family: 'Poppins', sans-serif;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+
+        li {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            margin-bottom: 0.3em;
+            font-size: 1.5em;
+
+            img {
+                margin-right: 1em;
+            }
+        }
+    }
+}
+
+.cuerpoContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 576px) {
+    .carouselIndex {
+        display: none;
+    }
+
+    .seccionIndex {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        p {
+            padding: 1em 0em 1em 0em !important;
+            width: 80%;
+        }
+    }
+
+    .imgIndex {
+        width: 80% !important;
+        margin-bottom: 0em !important;
+    }
+
+    .carouselMovil {
+        margin-top: 1em;
+        display: block !important;
+    }
+
+    .footerIndex {
+        flex-direction: column;
+    }
+
+    .footerNav {
+        margin-bottom: 0%;
+
+        nav {
+            ul {
+                padding-left: 0%;
+
+                li {
+                    margin-left: 0%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .footerRedes {
+        margin-top: -10%;
+        flex-direction: column;
+
+        div {
+            margin-top: -5%;
+            width: 50%;
+        }
+    }
+
+    .seccionNosotros {
+        margin-top: 0em !important;
+    }
+
+    .imgNosotros {
+        width: 100% !important;
+        margin: 1em !important;
+    }
+}

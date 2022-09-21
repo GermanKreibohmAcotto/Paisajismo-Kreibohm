@@ -1,0 +1,250 @@
+.navIndex {
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  padding: 0;
+}
+
+.nav-link {
+  color: black;
+  text-align: center;
+}
+
+.navbar-collapse {
+  justify-content: end;
+}
+
+.navbar {
+  --bs-navbar-brand-padding-y: 0;
+}
+
+.footerIndex {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+}
+
+.footerNav {
+  flex: 2;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.footerNav h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.footerNav nav ul li {
+  text-align: start;
+  margin-left: 15%;
+  list-style: none;
+}
+.footerNav nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.footerRedes {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.footerRedes div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.footerImgLogo {
+  width: 50%;
+}
+
+.footerContacto {
+  flex: 2;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.footerContacto div {
+  display: flex;
+  margin: 2%;
+  margin-left: 25%;
+  align-items: center;
+}
+.footerContacto div p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding-left: 0.5em;
+  margin-bottom: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.carouselIndex {
+  margin-top: 1em;
+}
+
+.seccionesIndex {
+  font-size: 1.3em;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  padding: 0%;
+  padding-left: 1em;
+}
+.seccionesIndex a {
+  padding: 1.3em 3em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #000;
+  background-color: #81A456;
+  border: none;
+  border-radius: 5%;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.seccionesIndex a:hover {
+  background-color: #588125;
+  box-shadow: 0px 15px 20px #def3c4;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.imgLogo {
+  width: 7em;
+  height: 7em;
+  margin-left: 1em;
+}
+
+.cuerpoIndex {
+  background-color: #81A456;
+}
+
+.seccionIndex p {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  text-align: center;
+  align-items: center;
+}
+
+.articuloNosotros {
+  font-family: "Poppins", sans-serif;
+}
+
+.mainServicios {
+  font-family: "Poppins", sans-serif;
+}
+
+.seccionObras {
+  font-family: "Poppins", sans-serif;
+}
+.seccionObras h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+.galeriaFotos {
+  --bs-gutter-x: 1rem;
+  --bs-gutter-y: 1rem;
+}
+
+.cuerpoContacto h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.asideContacto {
+  font-family: "Poppins", sans-serif;
+}
+.asideContacto ul {
+  display: flex;
+  flex-direction: column;
+}
+.asideContacto ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-bottom: 0.3em;
+  font-size: 1.5em;
+}
+.asideContacto ul li img {
+  margin-right: 1em;
+}
+
+.cuerpoContacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 576px) {
+  .carouselIndex {
+    display: none;
+  }
+  .seccionIndex {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .seccionIndex p {
+    padding: 1em 0em 1em 0em !important;
+    width: 80%;
+  }
+  .imgIndex {
+    width: 80% !important;
+    margin-bottom: 0em !important;
+  }
+  .carouselMovil {
+    margin-top: 1em;
+    display: block !important;
+  }
+  .footerIndex {
+    flex-direction: column;
+  }
+  .footerNav {
+    margin-bottom: 0%;
+  }
+  .footerNav nav ul {
+    padding-left: 0%;
+  }
+  .footerNav nav ul li {
+    margin-left: 0%;
+    text-align: center;
+  }
+  .footerRedes {
+    margin-top: -10%;
+    flex-direction: column;
+  }
+  .footerRedes div {
+    margin-top: -5%;
+    width: 50%;
+  }
+  .seccionNosotros {
+    margin-top: 0em !important;
+  }
+  .imgNosotros {
+    width: 100% !important;
+    margin: 1em !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
