@@ -1,0 +1,9 @@
+@mixin imagenLogo ($altura, $largo){
+    width: $largo;
+    height: $altura;
+}
+
+.imgLogo{
+    @include imagenLogo(7em,7em);
+    margin-left: 1em;
+}

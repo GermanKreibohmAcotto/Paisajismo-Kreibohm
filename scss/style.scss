@@ -1,7 +1,11 @@
 @import "./base/variables";
 @import "./componentes/global";
+@import "./base/extend";
+@import "./base/mixin";
+@import "./base/colores";
 
-* {
+
+*{
     margin: 0;
     padding: 0;
 }
@@ -10,48 +14,13 @@
     margin-top: 1em;
 }
 
-.seccionesIndex {
-    font-size: 1.3em;
-    font-family: 'Poppins', sans-serif;
-    color: black;
-    padding: 0%;
-    padding-left: 1em;
-
-    a {
-        padding: 1.3em 3em;
-        font-size: 0.8em;
-        text-transform: uppercase;
-        letter-spacing: 2.5px;
-        color: #000;
-        background-color: $color-principal;
-        border: none;
-        border-radius: 5%;
-        transition: all 0.3s ease 0s;
-        cursor: pointer;
-        outline: none;
-
-        &:hover {
-            background-color: #588125;
-            box-shadow: 0px 15px 20px #def3c4;
-            color: #fff;
-            transform: translateY(-7px);
-        }
-    }
-}
-
-.imgLogo {
-    width: 7em;
-    height: 7em;
-    margin-left: 1em;
-}
-
 .cuerpoIndex {
-    background-color: #81A456;
+    background-color: map-get($colores, primario);
 }
 
 .seccionIndex {
     p {
-        font-family: 'Poppins', sans-serif;
+        font-family: $fuente;
         font-style: italic;
         font-weight: 200;
         text-align: center;
@@ -60,15 +29,15 @@
 }
 
 .articuloNosotros {
-    font-family: 'Poppins', sans-serif;
+    font-family: $fuente;
 }
 
 .mainServicios {
-    font-family: 'Poppins', sans-serif;
+    font-family: $fuente;
 }
 
 .seccionObras {
-    font-family: 'Poppins', sans-serif;
+    font-family: $fuente;
 
     h2 {
         margin-top: 1em;
@@ -84,13 +53,13 @@
 
 .cuerpoContacto {
     h2 {
-        font-family: 'Poppins', sans-serif;
+        font-family: $fuente;
     }
 
 }
 
 .asideContacto {
-    font-family: 'Poppins', sans-serif;
+    font-family: $fuente;
 
     ul {
         display: flex;
@@ -109,14 +78,6 @@
             }
         }
     }
-}
-
-.cuerpoContacto {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 576px) {

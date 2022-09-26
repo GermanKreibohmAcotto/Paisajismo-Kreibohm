@@ -19,6 +19,35 @@
     --bs-navbar-brand-padding-y: 0;
 }
 
+.seccionesIndex {
+    font-size: 1.3em;
+    font-family: $fuente;
+    color: black;
+    padding: 0%;
+    padding-left: 1em;
+
+    a {
+        padding: 1.3em 3em;
+        font-size: 0.8em;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        color: #000;
+        background-color: $color-principal;
+        border: none;
+        border-radius: 5%;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+
+        &:hover {
+            background-color: #6f9e35;
+            box-shadow: 1px 6px 52px 1px rgba(222,243,196,0.78);
+            color: #fff;
+            transform: translateY(-7px);
+        }
+    }
+}
+
 // footer
 
 .footerIndex {
