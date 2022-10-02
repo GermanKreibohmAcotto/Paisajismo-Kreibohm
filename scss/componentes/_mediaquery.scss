@@ -1,0 +1,101 @@
+@media screen and (max-width: 576px) {
+    // ++++++++++inicio++++++++++++++
+    .carouselIndex {
+        display: none;
+    }
+
+    .seccionIndex {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        p {
+            padding: 1em 0em 1em 0em !important;
+            width: 80%;
+        }
+    }
+
+    .imgIndex {
+        width: 80% !important;
+        margin-bottom: 0em !important;
+    }
+
+    .carouselMovil {
+        margin-top: 1em;
+        display: block !important;
+    }
+
+    .footerIndex {
+        flex-direction: column;
+    }
+
+    .footerNav {
+        margin-bottom: 0%;
+
+        nav {
+            ul {
+                padding-left: 0%;
+
+                li {
+                    margin-left: 0%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .footerRedes {
+        margin-top: -10%;
+        flex-direction: column;
+
+        div {
+            margin-top: -5%;
+            width: 50%;
+        }
+    }
+// ++++++++Nosotros++++++++++++++
+    .seccionNosotros {
+        margin-top: 0em !important;
+    }
+
+    .imgNosotros {
+        width: 100% !important;
+        margin: 1em !important;
+    }
+// ++++++++++++Servicios+++++++++++
+    .seccionServicios{
+        flex-direction: column!important;
+        align-items: center;
+        width: 100%;
+    }
+// +++++++++++++Obras+++++++++++++
+
+
+// ++++++++++++++Contacto++++++++++++
+
+    .cuerpoContacto{
+        flex-direction: column;
+        justify-content: center;
+        section{
+            width: 100%;
+            div{
+                iframe{
+                    width: 100%;
+                }
+            }
+        }
+
+        aside{
+            margin-top: -6%;
+            ul{
+                padding: 0
+            };
+        }
+    }
+
+    .formulario{
+        width: 100%!important;
+    }
+
+
+}

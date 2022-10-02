@@ -29,7 +29,7 @@
   font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  color: #000;
+  color: black;
   background-color: #81A456;
   border: none;
   border-radius: 5%;
@@ -130,6 +130,80 @@
   margin-left: 1em;
 }
 
+@media screen and (max-width: 576px) {
+  .carouselIndex {
+    display: none;
+  }
+  .seccionIndex {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .seccionIndex p {
+    padding: 1em 0em 1em 0em !important;
+    width: 80%;
+  }
+  .imgIndex {
+    width: 80% !important;
+    margin-bottom: 0em !important;
+  }
+  .carouselMovil {
+    margin-top: 1em;
+    display: block !important;
+  }
+  .footerIndex {
+    flex-direction: column;
+  }
+  .footerNav {
+    margin-bottom: 0%;
+  }
+  .footerNav nav ul {
+    padding-left: 0%;
+  }
+  .footerNav nav ul li {
+    margin-left: 0%;
+    text-align: center;
+  }
+  .footerRedes {
+    margin-top: -10%;
+    flex-direction: column;
+  }
+  .footerRedes div {
+    margin-top: -5%;
+    width: 50%;
+  }
+  .seccionNosotros {
+    margin-top: 0em !important;
+  }
+  .imgNosotros {
+    width: 100% !important;
+    margin: 1em !important;
+  }
+  .seccionServicios {
+    flex-direction: column !important;
+    align-items: center;
+    width: 100%;
+  }
+  .cuerpoContacto {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cuerpoContacto section {
+    width: 100%;
+  }
+  .cuerpoContacto section div iframe {
+    width: 100%;
+  }
+  .cuerpoContacto aside {
+    margin-top: -6%;
+  }
+  .cuerpoContacto aside ul {
+    padding: 0;
+  }
+  .formulario {
+    width: 100% !important;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -192,59 +266,52 @@
   margin-bottom: 0.3em;
   font-size: 1.5em;
 }
+.asideContacto ul li a {
+  text-decoration: none;
+  color: black;
+}
 .asideContacto ul li img {
   margin-right: 1em;
 }
 
-@media screen and (max-width: 576px) {
-  .carouselIndex {
-    display: none;
-  }
-  .seccionIndex {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  .seccionIndex p {
-    padding: 1em 0em 1em 0em !important;
-    width: 80%;
-  }
-  .imgIndex {
-    width: 80% !important;
-    margin-bottom: 0em !important;
-  }
-  .carouselMovil {
-    margin-top: 1em;
-    display: block !important;
-  }
-  .footerIndex {
-    flex-direction: column;
-  }
-  .footerNav {
-    margin-bottom: 0%;
-  }
-  .footerNav nav ul {
-    padding-left: 0%;
-  }
-  .footerNav nav ul li {
-    margin-left: 0%;
-    text-align: center;
-  }
-  .footerRedes {
-    margin-top: -10%;
-    flex-direction: column;
-  }
-  .footerRedes div {
-    margin-top: -5%;
-    width: 50%;
-  }
-  .seccionNosotros {
-    margin-top: 0em !important;
-  }
-  .imgNosotros {
-    width: 100% !important;
-    margin: 1em !important;
-  }
+.formulario {
+  background-color: #F9F9F9;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  border-radius: 2%;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 2em;
+  box-shadow: -1px 15px 30px -12px black;
+}
+.formulario #nombre {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 0.3em;
+}
+.formulario #apellido {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 0.3em;
+}
+.formulario #telefono {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 0.3em;
+}
+.formulario #mensaje {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+.formulario #boton {
+  padding: 0.3em;
+  width: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */
