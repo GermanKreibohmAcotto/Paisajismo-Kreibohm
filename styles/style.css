@@ -125,8 +125,8 @@
 }
 
 .imgLogo {
-  width: 7em;
-  height: 7em;
+  width: 10em;
+  height: 8em;
   margin-left: 1em;
 }
 
@@ -189,13 +189,14 @@
     justify-content: center;
   }
   .cuerpoContacto section {
+    margin-top: 0.8em !important;
     width: 100%;
   }
   .cuerpoContacto section div iframe {
     width: 100%;
   }
   .cuerpoContacto aside {
-    margin-top: -6%;
+    margin-top: 2em;
   }
   .cuerpoContacto aside ul {
     padding: 0;
@@ -277,7 +278,6 @@
 .formulario {
   background-color: #F9F9F9;
   width: 50%;
-  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -286,8 +286,8 @@
   padding-top: 2em;
   border-radius: 2%;
   font-family: "Poppins", sans-serif;
-  margin-bottom: 2em;
   box-shadow: -1px 15px 30px -12px black;
+  margin-top: 2em;
 }
 .formulario #nombre {
   width: 100%;

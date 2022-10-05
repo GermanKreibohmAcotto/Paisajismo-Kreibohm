@@ -50,14 +50,14 @@
   </nav>
 
   <main class="cuerpoContacto">
-    <section class="ms-1 mb-5 me-1 mt-4">
-      <h2 class="text-center mb-3 fs-2">Donde Encontrarnos</h2>
-      <div><iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222.55392972608317!2d-65.29925169181672!3d-26.812494499500936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942242d9937708bd%3A0x6905b64a33d906e5!2sAv.%20Aconquija%202048%2C%20T4107%20Yerba%20Buena%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1660107723841!5m2!1ses!2sar"
-          width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </section>
+    <form class="formulario" action="">
+      <h2>Contactanos</h2>
+      <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Nombre">
+      <input class="form-control" type="text" name="apellido" id="apellido" placeholder="Apellido">
+      <input class="form-control" type="tel" name="telefono" id="telefono" placeholder="Telefono">
+      <textarea class="form-control" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+      <input class="form-control btn btn-success" type="button" value="Enviar" id="boton">
+    </form>
 
     <aside class="asideContacto d-flex flex-column justify-content-center">
       <h2 class="text-center">Nuestras Redes!</h2>
@@ -69,16 +69,18 @@
         <li><img src="../imagenes/logos/iconmonstr-whatsapp-1.svg" alt="WhatsApp"><a href="">Mercedez Lambois</a></li>
       </ul>
     </aside>
+
+    <section class="ms-1 mb-5 me-1 mt-5">
+      <h2 class="text-center mb-3 fs-2">Donde Encontrarnos</h2>
+      <div><iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222.55392972608317!2d-65.29925169181672!3d-26.812494499500936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942242d9937708bd%3A0x6905b64a33d906e5!2sAv.%20Aconquija%202048%2C%20T4107%20Yerba%20Buena%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1660107723841!5m2!1ses!2sar"
+          width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
   </main>
 
-  <form class="formulario" action="">
-    <h2>Contactanos</h2>
-    <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Nombre">
-    <input class="form-control" type="text" name="apellido" id="apellido" placeholder="Apellido">
-    <input class="form-control" type="tel" name="telefono" id="telefono" placeholder="Telefono">
-    <textarea class="form-control" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
-    <input class="form-control btn btn-success" type="button" value="Enviar" id="boton">
-  </form>
+  
   
   <footer class="footerIndex animate__animated animate__fadeInUp">
     <section class="footerNav">
