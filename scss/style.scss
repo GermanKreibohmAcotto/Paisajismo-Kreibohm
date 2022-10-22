@@ -21,6 +21,7 @@
 
 .seccionIndex {
     p {
+        font-size: 2em!important;
         font-family: $fuente;
         font-style: italic;
         font-weight: 200;
@@ -31,6 +32,9 @@
 
 .articuloNosotros {
     font-family: $fuente;
+    p{
+        font-size: 1.5em;
+    }
 }
 
 .mainServicios {

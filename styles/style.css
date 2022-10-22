@@ -219,6 +219,7 @@
 }
 
 .seccionIndex p {
+  font-size: 2em !important;
   font-family: "Poppins", sans-serif;
   font-style: italic;
   font-weight: 200;
@@ -228,6 +229,9 @@
 
 .articuloNosotros {
   font-family: "Poppins", sans-serif;
+}
+.articuloNosotros p {
+  font-size: 1.5em;
 }
 
 .mainServicios {
